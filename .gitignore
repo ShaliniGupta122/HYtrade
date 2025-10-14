@@ -1,0 +1,62 @@
+# Dependencies
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build files
+/build
+/dist
+/.next
+/out
+/.vercel
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local development
+.DS_Store
+.env.local
+
+# IDE
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs
+logs
+*.log
+
+# Misc
+.cache/
+coverage/
+
+# Backend specific
+/backend/.env
+/backend/logs/
+
+# Frontend specific
+/frontend/.env
+/frontend/build/
+
+# Dashboard specific
+/dashboard/build/
+/dashboard/.env
+
+# New dashboard specific
+/new-dashboard/node_modules/
+/new-dashboard/dist/
+/new-dashboard/.env
